@@ -5,6 +5,8 @@
 #include <SDL2/SDL_audio.h>
 #include <SDL2/SDL_timer.h>
 
+// I copied most of this from StackOverflow
+
 double WAVlenght(const char *filename, const double freq) {
   SDL_AudioSpec spec;
   uint32_t audioLen;
