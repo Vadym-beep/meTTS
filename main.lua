@@ -42,6 +42,8 @@
 -- PROVA1 - Play the test sound "PROVA1.wav"
 ----------------------------------------------------------------
 
+-- ACTUAL CODE STARTS HERE --
+
 audioFolderPath = "./audio/" -- If the folder doesn't already exist, create it yourself.
 fileExtension = ".wav"       -- Note: it only supports wav, don't change this.
 ERROR_COUNT = 0
